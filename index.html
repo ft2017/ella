@@ -1,0 +1,77 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ella</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="justified-nav.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+
+    <div class="container-fluid">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">   <span class="badge">...調試中</span>
+        <h3 class="text-muted">Ella專區</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="http://portal.fulltech-metal.com/">企業入口</a></li>
+            <li><a href="../">全製程T100數據速查</a></li>
+            <li><a href="../project_update">全製程T100現況</a></li>
+            <li><a href="http://10.10.1.14/bpmstatus/apk/">安卓手機平板下載</a></li>
+<!--            <li><a href="..">About</a></li>
+            <li><a href="#">Contact</a></li>-->
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>工作重点</h1>
+        <p class="lead">全制程追踪系统。</p>
+        <p>
+            <a target='_blank' class="btn btn-lg btn-success" href="todo.html" role="button">查看目录</a>
+            <a target='_blank' class="btn btn-lg btn-success" href="http://openweathermap.org/api" role="button">OpenWeatherMap API 範例</a>
+        </p>
+     
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>查看是否為全製程單號</h2>
+          <p class="text-danger">目前單號識別，只允許為2017年的。這是為了在這段時間避免不必要的錯誤，年底前再增列2018年為合乎規範的檢查。</p>
+          <p>全製程的各種表單編碼規則，以<strong>100SF001-1705000377</strong> 為例︰100 或 200 開頭分別是富鈦和境外公司，SF001是表單編碼，17是2017年，05是5月份，最後六碼為當月的流水碼。 </p>
+          <p><a target='_blank' class="btn btn-primary" href="num_checker?num=100SF001-1705000377" role="button">立即試驗 &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>查看表單編碼</h2>
+          <p>如 <strong>   查看是否為全製程單號</strong> 所述，如果是要直接查看全部的表單編碼，也備好了。<a target='_blank' class="btn btn-primary" href="num_type_list?ent=10" role="button">立即試驗 &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>...Heading</h2>
+          <p>....</p>
+          <p><a class="btn btn-primary" href="#" role="button">... &raquo;</a></p>
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2017 富鈦金屬</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>
